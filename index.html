@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <h2>
+                <i class="fa fa-filter" aria-hidden="true"></i>Filters</h2>
+            <div class="filter-option">
+                <h3>Select Category</h3>
+                <ul>
+                    <li> <input type="checkbox" id="all"> <label for="all">All</label> <span>90</span> </li>
+                    <li> <input type="checkbox" id="asthma"> <label for="asthma">Asthma</label> <span>30</span></li>
+                    <li> <input type="checkbox" id="diabetes"> <label for="diabetes">Diabetes</label> <span>40</span>
+                    </li>
+                    <li> <input type="checkbox" id="sleep"> <label for="sleep">Sleep</label> <span>20</span></li>
+                </ul>
+            </div>
+            <div class="filter-option">
+                <h3>Select Platform</h3>
+                <ul>
+                    <li> <input type="checkbox" id="all-platform"> <label for="all-platform">All</label> <span>90</span>
+                    </li>
+                    <li> <input type="checkbox" id="android"> <label for="android">Android</label> <span>50</span></li>
+                    <li> <input type="checkbox" id="ios"> <label for="ios">IOS</label> <span>40</span></li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="middle-content">
+            <div class="header">
+                <div class="logo"> <a href="#"><img src="img/logo.png" alt=""></a> </div>
+                <div class="short">
+                    <label for="">Sort By</label>
+                    <select name="" id="">
+                        <option value="">Rating</option>
+                        <option value="">Free</option>
+                        <option value="">Premium</option>
+                        <option value="">Update</option>
+                    </select>
+                    <div class="search">
+                        <input type="text" name="" id="" placeholder="Search">
+                        <i class="fa fa-search"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-6">
+                        <div class="product-card">
+
+                            <div class="card-header">
+                                <div class="icon">
+                                    <img src="img/icon.webp" alt="">
+                                </div>
+                                <!-- <h2>21-Day Meditation Experience <span class="asthma"><i class="fa fa-long-arrow-right" aria-hidden="true"></i> Asthma</span></h2> -->
+                                <h2>21-Day Meditation Experience <ul class="rating">
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa fa-star"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa fa-star"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa fa-star"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa fa-star"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </h2>
+
+
+                                <!-- <div class="rating">
+                                    80%
+                                </div> -->
+                            </div>
+                            <div class="card-content">
+                                <p> Oprah Winfrey, Deepak Chopra, and Chopra Center Meditation present the “Oprah &
+                                    Deepak’s 21-Day Meditation Experience” mobile app, Oprah Winfrey, Deepak Chopra, and
+                                    Chopra Center Meditation present.</p>
+                            </div>
+                            <div class="card-footer">
+                                <ul>
+                                    <li class="update"><strong>Last Updated</strong> : 15 March 2020</li>
+                                    <li class="audit"><strong>Audit Date</strong> : 10 Jan 2020</li>
+                                </ul>
+                            </div>
+                            <div class="card-footer card-footer1">
+                                <ul>
+                                    <li class="in-purchases"><strong>Offers in-app purchases</strong></li>
+
+                                    <li class="price"><i class="fa fa-long-arrow-right" aria-hidden="true"></i> Free
+                                    </li>
+                                    <li class="app-download"> <a href="#"> <img class="apple" src="img/apple-logo.png"
+                                                alt=""> <span> Install</span> </a> </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
